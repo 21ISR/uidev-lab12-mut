@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 3px;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
@@ -10,7 +10,6 @@ body{
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right,#f5f7fa,#c3cfe2 90%);
-    margin-top: 70px;
 }
 
 header{
@@ -26,7 +25,7 @@ header{
 .content{
     background-color: rgb(255, 255, 255);
     width: 440px;
-    height: 800px;
+    height: 850px;
     border-radius: 10px;
     
 }
@@ -108,3 +107,17 @@ button:active{
 #microsofttvar{
     text-decoration: none;
 }
+
+.drop{
+    border-radius: 5px;
+    width: 410px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #c3cfe2;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: #545d6d;
+    background-color: #edf2fa;
+}
+
