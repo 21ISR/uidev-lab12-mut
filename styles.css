@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right,#f5f7fa,#c3cfe2 90%);
-    margin-top: 150px;
+    margin-top: 70px;
 }
 
 header{
@@ -26,7 +26,7 @@ header{
 .content{
     background-color: rgb(255, 255, 255);
     width: 440px;
-    height: 600px;
+    height: 800px;
     border-radius: 10px;
     
 }
@@ -98,54 +98,6 @@ button:hover {
 }
 button:active{
     background: linear-gradient(to right,#4657a3,#5a3a7c);
-}
-.left-line{
-    position: relative;
-    width: 170px;
-    height: 1px;
-    background-color: #c3cfe2;
-    top: -11px;
-    left: 15px;
-}
-
-.right-line{
-    position: relative;
-    width: 170px;
-    height: 1px;
-    background-color: #c3cfe2;
-    top: -12px;
-    left: 254px;
-}
-
-.OR{
-    color: #c3cfe2;
-    text-align: center;
-    padding-top: 25px;
-}
-
-
-.oval{
-    position: relative;
-    width: 50px;
-    height: 50px;
-    background-color: #ebf1fc;
-    border: 1px solid #9ba1aa;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5px
-}
-
-.oval img{
-    height: 25px;
-    width: auto;
-}
-
-.logo{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 .Registration{
